@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 5px;
+}
+
+.container-grid {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-square{
+    /* display: flex;
+    flex-wrap: wrap; */
+    width: 500px;
+    height: 500px;
+    color: rgb(132, 171, 231);
+    padding: 5px 0;
+}
+
+footer{
+    font-size: 1.2rem;
+    margin: 1.2rem;
+}
