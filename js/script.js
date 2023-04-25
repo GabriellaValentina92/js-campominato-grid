@@ -1,6 +1,7 @@
 const grid = document.querySelector('.big-square');
-// const container = document.querySelector('.container-grid')
 const selectLevel = document.querySelector('#play').value;
+const title = document.querySelector('.intro')
+
 
 const btnPlay = document.querySelector('.btn');
 btnPlay.addEventListener('click', 
@@ -14,8 +15,15 @@ function () {
             this.classList.toggle('clicked');
         })
     }
-    
+
+    title.remove();
 });
+
+
+// btnPlay.addEventListener('click', 
+// function () {
+//     title.remove();
+// });
 
 
 // FUNZIONI 

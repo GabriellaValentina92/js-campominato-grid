@@ -20,6 +20,12 @@
     align-items: center;
 }
 
+.intro{
+    padding-inline: 20rem;
+    margin-left: 10rem;
+    
+}
+
 .big-square{
     display: flex;
     flex-wrap: wrap;
