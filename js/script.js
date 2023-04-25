@@ -6,7 +6,7 @@ const title = document.querySelector('.intro')
 const btnPlay = document.querySelector('.btn');
 btnPlay.addEventListener('click', 
 function () {
-    createCell(65);
+    createCell(101);
     const listCells = document.querySelectorAll('.cell');
     for (let i = 1; i < listCells.length; i++) {
         const cells = listCells[i];
