@@ -20,12 +20,6 @@ function () {
 });
 
 
-// btnPlay.addEventListener('click', 
-// function () {
-//     title.remove();
-// });
-
-
 // FUNZIONI 
 
 function createCell (numCell){
