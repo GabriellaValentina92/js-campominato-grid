@@ -7,24 +7,39 @@
 .navbar {
     display: flex;
     align-items: center;
+    height: 10vh;
     justify-content: space-between;
-    padding-inline: 5px;
+    padding-inline: 10px;
 }
 
 .container-grid {
     background-color: aquamarine;
     display: flex;
+    height: 600px;
     justify-content: center;
     align-items: center;
 }
 
 .big-square{
-    /* display: flex;
-    flex-wrap: wrap; */
-    width: 500px;
-    height: 500px;
-    color: rgb(132, 171, 231);
-    padding: 5px 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 480px;
+    box-sizing: content-box;
+    margin: 30px 0;
+    background-color: darkcyan;
+}
+
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border: 2px solid white;
+}
+
+.clicked {
+    background-color: rgb(7, 33, 111);
 }
 
 footer{
